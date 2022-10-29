@@ -1,0 +1,22 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'MeatByReceipt' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+
+
+  # Pods for MeatByReceipt
+  pod 'Alamofire'
+
+  target 'MeatByReceiptTests' do
+    inherit! :search_paths
+    # Pods for testing
+  end
+
+  target 'MeatByReceiptUITests' do
+    # Pods for testing
+  end
+
+end

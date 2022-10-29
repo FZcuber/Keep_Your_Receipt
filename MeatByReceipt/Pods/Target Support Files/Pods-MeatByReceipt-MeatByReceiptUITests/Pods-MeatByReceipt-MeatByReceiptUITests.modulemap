@@ -1,0 +1,6 @@
+framework module Pods_MeatByReceipt_MeatByReceiptUITests {
+  umbrella header "Pods-MeatByReceipt-MeatByReceiptUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
