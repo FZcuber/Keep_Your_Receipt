@@ -1,5 +1,6 @@
 import os
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"]="C:/Users/jason/Desktop/Workspace/Keep_Your_Receipt/seventh-tempest-365615-8b646093cdf7.json"
+# Insert g-cloud credentials here
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"]= None
 
 def detect_text(path):
     """Detects text in the file."""
